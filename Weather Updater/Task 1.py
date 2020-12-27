@@ -4,7 +4,7 @@ import urllib, json
 import urllib.request
 import sys
 import pytemperature as tempp
-api_key='25e9b75ba4d4eb8b913970436a3b2113'
+api_key='Insert OpenWeathermap API Key Here'
 wb = xw.Book('Example.xlsx')
 sht1 = wb.sheets['Weather']
 sht2 = wb.sheets['City Tokens']
