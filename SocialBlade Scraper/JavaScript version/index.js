@@ -29,8 +29,8 @@ app.get('/socialblade', (req, res) => {
 		console.log(`Testing adblocker plugin..`)
 		await page.goto('https://socialblade.com/login')
 		await page.waitForTimeout(1000)
-		await page.type("#admin-login > div:nth-child(2) > input.dashboard-form", 'yyxx0610@gmail.com', { delay: 20 })
-		await page.type("#admin-login > div:nth-child(4) > input", 'deepan2000', { delay: 20 })
+		await page.type("#admin-login > div:nth-child(2) > input.dashboard-form", 'EMAIL', { delay: 20 })
+		await page.type("#admin-login > div:nth-child(4) > input", 'PASSWORD', { delay: 20 })
 		await page.click('input[value="LOGIN"]')
 		console.log("sleeping")
 		// sleep(2000);
